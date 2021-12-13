@@ -1,0 +1,26 @@
+{
+	"name": "slp-tailwind-navigation-bar",
+	"version": "1.0.0",
+	"description": "Tailwind CSS navigation bar sample learning project.",
+	"main": "index.html",
+	"scripts": {
+		"generate": "tailwindcss -i ./src/tailwind.css -o ./style.css",
+		"dev": "vite",
+		"build": "NODE_ENV=production tailwindcss -i ./src/tailwind.css -o ./style.css && vite build",
+		"serve": "vite preview"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.4.0",
+		"postcss": "^8.4.1",
+		"tailwindcss": "^2.2.19",
+		"vite": "^2.6.14"
+	},
+	"author": {
+		"name": "Michael Owuor"
+	},
+	"engines": {
+		"node": ">=10.16.0 <=14.x.x",
+		"npm": "^6.0.0"
+	},
+	"license": "MIT"
+}

@@ -1,0 +1,11 @@
+# dependency folder
+node_modules
+
+# vite build output
+dist
+dist-ssr
+
+# env files
+.env
+.env.local
+.env.*.local
