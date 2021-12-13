@@ -1,5 +1,5 @@
 # build stage
-FROM node:lts-alpine as build-stage
+FROM node:14.18.1-alpine as build-stage
 
 # set the current working directory
 WORKDIR /usr/src/app
