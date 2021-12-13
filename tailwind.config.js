@@ -2,7 +2,11 @@ module.exports = {
 	purge: ['./**/*.html', './**/*.js'],
 	darkMode: false,
 	theme: {
-		extend: {},
+		extend: {
+			fontFamily: {
+				monty: 'Montserrat',
+			},
+		},
 	},
 	variants: {
 		extend: {},

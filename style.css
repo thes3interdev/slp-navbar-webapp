@@ -22387,6 +22387,10 @@ html {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-monty{
+  font-family: Montserrat;
+}
+
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
@@ -53967,6 +53971,10 @@ html {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .sm\:font-monty{
+    font-family: Montserrat;
+  }
+
   .sm\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -85193,6 +85201,10 @@ html {
 
   .md\:font-mono{
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .md\:font-monty{
+    font-family: Montserrat;
   }
 
   .md\:text-xs{
@@ -116423,6 +116435,10 @@ html {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-monty{
+    font-family: Montserrat;
+  }
+
   .lg\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -147651,6 +147667,10 @@ html {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .xl\:font-monty{
+    font-family: Montserrat;
+  }
+
   .xl\:text-xs{
     font-size: 0.75rem;
     line-height: 1rem;
@@ -178877,6 +178897,10 @@ html {
 
   .\32xl\:font-mono{
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .\32xl\:font-monty{
+    font-family: Montserrat;
   }
 
   .\32xl\:text-xs{
